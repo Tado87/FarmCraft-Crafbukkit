@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from projet &apos;Client&apos;&#x0D;&#x0A;- Projet d&apos;origine : &apos;Client&apos;&#x0D;&#x0A;- Elément d&apos;origine : &apos;net.minecraft.src.BlockFoin.java&apos;" description="Supprimer l&apos;élément" element1="/src&lt;net.minecraft.src{BlockFoin.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1328792576508" subPackages="false" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Supprimer la ressource &apos;Copie de Launcher_by_MrGloboxx&apos;" deleteContents="false" description="Supprimer la ressource &apos;Copie de Launcher_by_MrGloboxx&apos;" element1="/Copie de Launcher_by_MrGloboxx" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1327968080998"/>
+</session>

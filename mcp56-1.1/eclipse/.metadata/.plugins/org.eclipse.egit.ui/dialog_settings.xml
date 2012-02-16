@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="C:\Users\CARDON\Desktop\Modding\CraftBukkit\.git" key="GitSelectRepositoryPage.lastRepository"/>
+	<item value="0" key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel"/>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/Bukkit/CraftBukkit.git"/>
+	</list>
+	<section name="GitCommitSearchPage">
+		<item value="0" key="HISTORY_SIZE"/>
+	</section>
+</section>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="Sources launcher"/>
+	<classpathentry kind="lib" path="à faire télécharger au launcher/jinput.jar"/>
+	<classpathentry kind="lib" path="à faire télécharger au launcher/linux_natives.jar"/>
+	<classpathentry kind="lib" path="à faire télécharger au launcher/lwjgl_util.jar"/>
+	<classpathentry kind="lib" path="à faire télécharger au launcher/lwjgl.jar"/>
+	<classpathentry kind="lib" path="à faire télécharger au launcher/macosx_natives.jar"/>
+	<classpathentry kind="lib" path="à faire télécharger au launcher/minecraft.jar"/>
+	<classpathentry kind="lib" path="à faire télécharger au launcher/solaris_natives.jar"/>
+	<classpathentry kind="lib" path="à faire télécharger au launcher/windows_natives.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="Sources launcher"/>
+</classpath>

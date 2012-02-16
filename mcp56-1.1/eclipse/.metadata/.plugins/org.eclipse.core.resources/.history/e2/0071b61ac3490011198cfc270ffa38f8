@@ -1,0 +1,56 @@
+
+package net.minecraft.src;
+
+public class BlockSpeedy extends Block
+{
+    public BlockSpeedy(int i, int j)
+    {
+        super(i, j, Material.sand);
+    }
+
+    public AxisAlignedBB getCollisionBoundingBoxFromPool(World world, int i, int j, int k)
+    {
+        float f = 0.125F;
+        return AxisAlignedBB.getBoundingBoxFromPool(i, j, k, i + 1, (float)(j + 1) - f, k + 1);
+    }
+
+    public void onEntityCollidedWithBlock(World world, int i, int j, int k, Entity entity)
+    {
+    	entity.motionX *= 1.3500000000000002D;
+    	entity.motionZ *= 1.3500000000000002D;
+    }
+    public void onBlockAdded(World world, int i, int j, int k)
+    {
+        super.onBlockAdded(world, i, j, k);
+        setDefaultDirection(world, i, j, k);
+    }
+    private void setDefaultDirection(World world, int i, int j, int k)
+    {
+        if (world.multiplayerWorld)
+        {
+            return;
+        }
+        int l = world.getBlockId(i, j, k - 1);
+        int i1 = world.getBlockId(i, j, k + 1);
+        int j1 = world.getBlockId(i - 1, j, k);
+        int k1 = world.getBlockId(i + 1, j, k);
+        byte byte0 = 3;
+        if (Block.opaqueCubeLookup[l] && !Block.opaqueCubeLookup[i1])
+        {
+            byte0 = 3;
+        }
+        if (Block.opaqueCubeLookup[i1] && !Block.opaqueCubeLookup[l])
+        {
+            byte0 = 2;
+        }
+        if (Block.opaqueCubeLookup[j1] && !Block.opaqueCubeLookup[k1])
+        {
+            byte0 = 5;
+        }
+        if (Block.opaqueCubeLookup[k1] && !Block.opaqueCubeLookup[j1])
+        {
+            byte0 = 4;
+        }
+        world.setBlockMetadataWithNotify(i, j, k, byte0);
+    }
+}

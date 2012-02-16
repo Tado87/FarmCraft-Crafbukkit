@@ -1,0 +1,2009 @@
+!SESSION 2012-01-19 12:26:52.139 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2012-01-19 12:36:03.272
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2012-01-19 12:36:03.273
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-01-19 12:36:03.273
+!MESSAGE Software being installed: Maven Integration for Eclipse (Required) 0.12.1.20110112-1712 (org.maven.ide.eclipse.feature.feature.group 0.12.1.20110112-1712)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-01-19 12:36:03.273
+!MESSAGE Software currently installed: Eclipse IDE for Java Developers 1.4.1.20110909-1818 (epp.package.java 1.4.1.20110909-1818)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-01-19 12:36:03.273
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-01-19 12:36:03.273
+!MESSAGE Maven Integration for Eclipse 0.12.1.20110112-1712 (org.maven.ide.eclipse 0.12.1.20110112-1712)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-01-19 12:36:03.273
+!MESSAGE Maven Integration for Eclipse 0.12.0.20101115-1102 (org.maven.ide.eclipse 0.12.0.20101115-1102)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-01-19 12:36:03.273
+!MESSAGE This version of m2eclipse cannot be installed on top of the already installed m2eclipse. Uninstall the previous version of m2eclipse and try the install again. 1.0.0.20110607-2117 (org.maven.ide.eclipse 1.0.0.20110607-2117)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-01-19 12:36:03.273
+!MESSAGE This version of m2eclipse cannot be installed on top of the already installed m2eclipse. Uninstall the previous version of m2eclipse and try the install again. 1.0.100.20110804-1717 (org.maven.ide.eclipse 1.0.100.20110804-1717)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-01-19 12:36:03.273
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-01-19 12:36:03.273
+!MESSAGE From: Eclipse IDE for Java Developers 1.4.1.20110909-1818 (epp.package.java 1.4.1.20110909-1818)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-01-19 12:36:03.273
+!MESSAGE To: org.eclipse.epp.package.java.feature.feature.group [1.4.1.20110909-1818]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-01-19 12:36:03.273
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-01-19 12:36:03.273
+!MESSAGE From: EPP Java Package 1.4.1.20110909-1818 (org.eclipse.epp.package.java.feature.feature.group 1.4.1.20110909-1818)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-01-19 12:36:03.273
+!MESSAGE To: org.eclipse.m2e.feature.feature.group 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-01-19 12:36:03.273
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-01-19 12:36:03.273
+!MESSAGE From: m2e - Maven Integration for Eclipse 1.0.0.20110607-2117 (org.eclipse.m2e.feature.feature.group 1.0.0.20110607-2117)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-01-19 12:36:03.273
+!MESSAGE To: bundle org.maven.ide.eclipse [1.0.0.20110607-2117]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-01-19 12:36:03.273
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-01-19 12:36:03.273
+!MESSAGE From: m2e - Maven Integration for Eclipse 1.0.100.20110804-1717 (org.eclipse.m2e.feature.feature.group 1.0.100.20110804-1717)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-01-19 12:36:03.273
+!MESSAGE To: bundle org.maven.ide.eclipse [1.0.100.20110804-1717]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-01-19 12:36:03.273
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-01-19 12:36:03.273
+!MESSAGE From: Maven Integration for Eclipse (Required) 0.12.1.20110112-1712 (org.maven.ide.eclipse.feature.feature.group 0.12.1.20110112-1712)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-01-19 12:36:03.273
+!MESSAGE To: org.maven.ide.eclipse [0.12.1.20110112-1712]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2012-01-19 12:36:03.283
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2012-01-19 12:36:03.283
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-01-19 12:36:03.283
+!MESSAGE Software being installed: Maven Integration for Eclipse (Required) 0.12.1.20110112-1712 (org.maven.ide.eclipse.feature.feature.group 0.12.1.20110112-1712)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-01-19 12:36:03.283
+!MESSAGE Software currently installed: Eclipse IDE for Java Developers 1.4.1.20110909-1818 (epp.package.java 1.4.1.20110909-1818)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-01-19 12:36:03.284
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-01-19 12:36:03.284
+!MESSAGE Maven Integration for Eclipse 0.12.1.20110112-1712 (org.maven.ide.eclipse 0.12.1.20110112-1712)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-01-19 12:36:03.284
+!MESSAGE Maven Integration for Eclipse 0.12.0.20101115-1102 (org.maven.ide.eclipse 0.12.0.20101115-1102)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-01-19 12:36:03.284
+!MESSAGE This version of m2eclipse cannot be installed on top of the already installed m2eclipse. Uninstall the previous version of m2eclipse and try the install again. 1.0.0.20110607-2117 (org.maven.ide.eclipse 1.0.0.20110607-2117)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-01-19 12:36:03.284
+!MESSAGE This version of m2eclipse cannot be installed on top of the already installed m2eclipse. Uninstall the previous version of m2eclipse and try the install again. 1.0.100.20110804-1717 (org.maven.ide.eclipse 1.0.100.20110804-1717)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-01-19 12:36:03.284
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-01-19 12:36:03.284
+!MESSAGE From: Eclipse IDE for Java Developers 1.4.1.20110909-1818 (epp.package.java 1.4.1.20110909-1818)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-01-19 12:36:03.284
+!MESSAGE To: org.eclipse.epp.package.java.feature.feature.group [1.4.1.20110909-1818]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-01-19 12:36:03.284
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-01-19 12:36:03.284
+!MESSAGE From: EPP Java Package 1.4.1.20110909-1818 (org.eclipse.epp.package.java.feature.feature.group 1.4.1.20110909-1818)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-01-19 12:36:03.284
+!MESSAGE To: org.eclipse.m2e.feature.feature.group 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-01-19 12:36:03.284
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-01-19 12:36:03.284
+!MESSAGE From: m2e - Maven Integration for Eclipse 1.0.0.20110607-2117 (org.eclipse.m2e.feature.feature.group 1.0.0.20110607-2117)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-01-19 12:36:03.284
+!MESSAGE To: bundle org.maven.ide.eclipse [1.0.0.20110607-2117]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-01-19 12:36:03.284
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-01-19 12:36:03.284
+!MESSAGE From: m2e - Maven Integration for Eclipse 1.0.100.20110804-1717 (org.eclipse.m2e.feature.feature.group 1.0.100.20110804-1717)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-01-19 12:36:03.284
+!MESSAGE To: bundle org.maven.ide.eclipse [1.0.100.20110804-1717]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-01-19 12:36:03.284
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-01-19 12:36:03.284
+!MESSAGE From: Maven Integration for Eclipse (Required) 0.12.1.20110112-1712 (org.maven.ide.eclipse.feature.feature.group 0.12.1.20110112-1712)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-01-19 12:36:03.284
+!MESSAGE To: org.maven.ide.eclipse [0.12.1.20110112-1712]
+
+!ENTRY org.eclipse.ecf.provider.filetransfer 4 0 2012-01-19 12:36:50.004
+!MESSAGE org.eclipse.core.runtime.Status[plugin=org.eclipse.ecf.provider.filetransfer;code=4;message=hardClose;severity4;exception=java.io.IOException: Stream closed;children=[]]
+!STACK 0
+java.io.IOException: Stream closed
+	at java.io.BufferedInputStream.getBufIfOpen(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at org.apache.commons.httpclient.ContentLengthInputStream.read(ContentLengthInputStream.java:170)
+	at org.apache.commons.httpclient.ContentLengthInputStream.read(ContentLengthInputStream.java:184)
+	at org.apache.commons.httpclient.ChunkedInputStream.exhaustInputStream(ChunkedInputStream.java:369)
+	at org.apache.commons.httpclient.ContentLengthInputStream.close(ContentLengthInputStream.java:118)
+	at java.io.FilterInputStream.close(Unknown Source)
+	at org.apache.commons.httpclient.AutoCloseInputStream.notifyWatcher(AutoCloseInputStream.java:194)
+	at org.apache.commons.httpclient.AutoCloseInputStream.close(AutoCloseInputStream.java:158)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.hardClose(AbstractRetrieveFileTransfer.java:331)
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientRetrieveFileTransfer.hardClose(HttpClientRetrieveFileTransfer.java:396)
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientRetrieveFileTransfer.cancel(HttpClientRetrieveFileTransfer.java:382)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.handleTransferEvent(FileReader.java:173)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.fireTransferReceiveDataEvent(AbstractRetrieveFileTransfer.java:388)
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientRetrieveFileTransfer.fireTransferReceiveDataEvent(HttpClientRetrieveFileTransfer.java:1163)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.handleReceivedData(AbstractRetrieveFileTransfer.java:288)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer$1.performFileTransfer(AbstractRetrieveFileTransfer.java:173)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2012-01-19 12:46:54.036 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui 4 0 2012-01-19 12:47:25.834
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 unknown 0 0 2012-01-19 12:47:25.834
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2012-01-19 12:47:25.834
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2012-01-19 12:47:25.834
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2012-01-19 12:47:25.834
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2012-01-19 12:47:25.834
+!MESSAGE Unable to restore perspective: Workspace - Java.
+!SUBENTRY 2 org.eclipse.ui 0 0 2012-01-19 12:47:25.834
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2012-01-19 12:47:25.834
+!MESSAGE 
+!SUBENTRY 2 unknown 0 0 2012-01-19 12:47:25.834
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2012-01-19 12:47:25.834
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2012-01-19 12:47:25.834
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.ui 4 4 2012-01-19 12:47:25.834
+!MESSAGE Could not create view: org.eclipse.egit.ui.RepositoriesView
+!STACK 1
+org.eclipse.ui.PartInitException: Could not create view: org.eclipse.egit.ui.RepositoriesView
+	at org.eclipse.ui.internal.ViewFactory.createView(ViewFactory.java:158)
+	at org.eclipse.ui.internal.Perspective.createReferences(Perspective.java:1249)
+	at org.eclipse.ui.internal.Perspective.restoreState(Perspective.java:1219)
+	at org.eclipse.ui.internal.WorkbenchPage$17.runWithException(WorkbenchPage.java:3293)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4140)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3757)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$33.runWithException(Workbench.java:1595)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4140)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3757)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+!SUBENTRY 3 org.eclipse.ui 4 0 2012-01-19 12:47:25.835
+!MESSAGE Could not create view: org.eclipse.egit.ui.RepositoriesView
+!SUBENTRY 2 unknown 0 0 2012-01-19 12:47:25.835
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2012-01-19 12:47:25.835
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2012-01-19 12:47:25.835
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2012-01-19 12:47:25.835
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2012-01-19 12:47:25.835
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2012-01-19 12:47:25.835
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.ui 4 0 2012-01-19 12:47:25.835
+!MESSAGE Could not find view: org.eclipse.egit.ui.RepositoriesView
+!SUBENTRY 1 unknown 0 0 2012-01-19 12:47:25.835
+!MESSAGE OK
+!SESSION 2012-01-19 13:04:47.543 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-01-19 13:06:48.578
+!MESSAGE CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-egit does not contain lifecycle mapping metadata
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-01-19 13:06:48.705
+!MESSAGE CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-cvs does not contain lifecycle mapping metadata
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-01-19 13:06:48.708
+!MESSAGE CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-subversive does not contain lifecycle mapping metadata
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-01-19 13:06:48.710
+!MESSAGE CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-subclipse does not contain lifecycle mapping metadata
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-01-19 13:06:48.713
+!MESSAGE CatalogItem org.eclipse.m2e.discovery.maven-runtime-3.0.3 does not contain lifecycle mapping metadata
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-01-19 13:06:48.735
+!MESSAGE CatalogItem org.codehaus.groovy.m2eclipse does not contain lifecycle mapping metadata
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2012-01-19 14:03:52.989
+!MESSAGE Could not download sources for org.bukkit:minecraft-server-release:1.1_01
+!SESSION 2012-01-19 15:44:54.646 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.ui 4 0 2012-01-19 15:45:26.454
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/ClasspathValidation
+	at org.eclipse.jdt.internal.core.ChangeClasspathOperation.classpathChanged(ChangeClasspathOperation.java:51)
+	at org.eclipse.jdt.internal.core.SetContainerOperation.executeOperation(SetContainerOperation.java:110)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:728)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:793)
+	at org.eclipse.jdt.internal.core.JavaModelManager$11.run(JavaModelManager.java:2793)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2809)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1872)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:2798)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2674)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2838)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1943)
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:461)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:258)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:518)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:255)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:241)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:196)
+	at org.eclipse.jdt.internal.core.JavaProject.getPackageFragmentRoots(JavaProject.java:1831)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.getPackageFragmentRoots(PackageExplorerContentProvider.java:323)
+	at org.eclipse.jdt.ui.StandardJavaElementContentProvider.getChildren(StandardJavaElementContentProvider.java:183)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.getChildren(PackageExplorerContentProvider.java:307)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getRawChildren(AbstractTreeViewer.java:1359)
+	at org.eclipse.jface.viewers.TreeViewer.getRawChildren(TreeViewer.java:391)
+	at org.eclipse.jdt.internal.ui.viewsupport.ProblemTreeViewer.getFilteredChildren(ProblemTreeViewer.java:274)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getSortedChildren(AbstractTreeViewer.java:605)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$1.run(AbstractTreeViewer.java:805)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:782)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:644)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:753)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.handleTreeExpand(AbstractTreeViewer.java:1485)
+	at org.eclipse.jface.viewers.TreeViewer.handleTreeExpand(TreeViewer.java:952)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$4.treeExpanded(AbstractTreeViewer.java:1496)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:132)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Tree.wmNotifyChild(Tree.java:7538)
+	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:5534)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:1896)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5086)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4584)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2425)
+	at org.eclipse.swt.widgets.Tree.callWindowProc(Tree.java:1533)
+	at org.eclipse.swt.widgets.Tree.WM_LBUTTONDOWN(Tree.java:6411)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4564)
+	at org.eclipse.swt.widgets.Tree.windowProc(Tree.java:5937)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2531)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3752)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.ClasspathValidation
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:513)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 76 more
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2012-01-19 16:06:33.413
+!MESSAGE Could not download sources for org.bukkit:bukkit:1.1-R1-SNAPSHOT
+!SESSION 2012-01-19 23:59:34.169 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.osgi 2 0 2012-01-19 23:59:50.328
+!MESSAGE While loading class "org.eclipse.team.internal.ccvs.ui.CVSUIPlugin", thread "Thread[main,6,main]" timed out waiting (10ms) for thread "Thread[Worker-3,5,main]" to finish starting bundle "org.eclipse.team.cvs.ui_3.3.400.I20110510-0800 [254]". To avoid deadlock, thread "Thread[main,6,main]" is proceeding but "org.eclipse.team.internal.ccvs.ui.CVSUIPlugin" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins/org.eclipse.team.cvs.ui_3.3.400.I20110510-0800.jar" by thread "Worker-3".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1087)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:297)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:268)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:462)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:400)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:35)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:473)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.mylyn.internal.team.ccvs.CvsActiveChangeSetProvider.getActiveChangeSetManager(CvsActiveChangeSetProvider.java:26)
+	at org.eclipse.mylyn.internal.team.ui.FocusedTeamUiPlugin.addActiveChangeSetProvider(FocusedTeamUiPlugin.java:127)
+	at org.eclipse.mylyn.internal.team.ui.FocusedTeamExtensionPointReader.readExtensions(FocusedTeamExtensionPointReader.java:53)
+	at org.eclipse.mylyn.internal.team.ui.FocusedTeamUiPlugin$1.run(FocusedTeamUiPlugin.java:80)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4140)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3757)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 42 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1087)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:297)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:268)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:462)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:400)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:35)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:473)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.mylyn.internal.team.ccvs.CvsActiveChangeSetProvider.getActiveChangeSetManager(CvsActiveChangeSetProvider.java:26)
+	at org.eclipse.mylyn.internal.team.ui.FocusedTeamUiPlugin.addActiveChangeSetProvider(FocusedTeamUiPlugin.java:127)
+	at org.eclipse.mylyn.internal.team.ui.FocusedTeamExtensionPointReader.readExtensions(FocusedTeamExtensionPointReader.java:53)
+	at org.eclipse.mylyn.internal.team.ui.FocusedTeamUiPlugin$1.run(FocusedTeamUiPlugin.java:80)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4140)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3757)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+!SESSION 2012-01-20 00:48:29.266 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.core 4 -1 2012-01-20 00:48:55.420
+!MESSAGE Could not lookup required component
+!STACK 0
+org.codehaus.plexus.component.repository.exception.ComponentLookupException: java.util.NoSuchElementException
+      role: org.apache.maven.repository.RepositorySystem
+  roleHint: 
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:253)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:241)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:235)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lookup(MavenImpl.java:1130)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.addDefaultRepository(MavenImpl.java:972)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getArtifactRepositories(MavenImpl.java:928)
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.updateRegistry(RepositoryRegistry.java:252)
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistryUpdateJob.run(RepositoryRegistryUpdateJob.java:46)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.util.NoSuchElementException
+	at java.util.Collections$EmptyIterator.next(Unknown Source)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:249)
+	... 8 more
+!SESSION 2012-01-20 00:56:41.879 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-01-20 00:57:53.787
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-01-20 00:57:53.813
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+!SESSION 2012-01-20 08:37:19.211 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2012-01-20 10:10:58.463
+!MESSAGE Could not schedule source download
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2012-01-20 10:11:00.176
+!MESSAGE Could not schedule source download
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2012-01-20 10:43:10.671
+!MESSAGE Could not schedule source download
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2012-01-20 10:43:10.732
+!MESSAGE Could not schedule source download
+!SESSION 2012-01-25 22:42:57.522 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-01-25 22:44:53.050
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-01-25 22:44:53.087
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+!SESSION 2012-01-26 22:21:34.514 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-01-26 23:13:51.036
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-01-26 23:13:51.121
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+!SESSION 2012-01-27 10:05:56.740 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-01-27 17:21:03.702
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-01-27 17:21:03.940
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2012-01-28 00:17:59.194
+!MESSAGE Could not schedule source download
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2012-01-28 00:18:01.202
+!MESSAGE Could not schedule source download
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2012-01-28 00:18:02.555
+!MESSAGE Could not schedule source download
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2012-01-28 00:18:03.358
+!MESSAGE Could not schedule source download
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2012-01-28 00:18:05.243
+!MESSAGE Could not schedule source download
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2012-01-28 00:18:06.796
+!MESSAGE Could not schedule source download
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2012-01-28 00:18:08.042
+!MESSAGE Could not schedule source download
+!SESSION 2012-01-28 14:02:39.801 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2012-01-28 14:04:30.124
+!MESSAGE Could not schedule source download
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2012-01-28 14:04:30.157
+!MESSAGE Could not schedule source download
+
+!ENTRY org.eclipse.ui 4 0 2012-01-28 14:51:47.104
+!MESSAGE Unable to create editor ID org.eclipse.jdt.ui.ClassFileEditor: The class file is not on the classpath
+!STACK 1
+org.eclipse.core.runtime.CoreException: The class file is not on the classpath
+	at org.eclipse.jdt.internal.ui.javaeditor.ClassFileEditor.doSetInput(ClassFileEditor.java:664)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$19.run(AbstractTextEditor.java:3200)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:464)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.window.ApplicationWindow$1.run(ApplicationWindow.java:759)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.window.ApplicationWindow.run(ApplicationWindow.java:756)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2642)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3218)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3245)
+	at org.eclipse.ui.internal.EditorManager.createSite(EditorManager.java:828)
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:647)
+	at org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:465)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:595)
+	at org.eclipse.ui.internal.PartPane.setVisible(PartPane.java:313)
+	at org.eclipse.ui.internal.presentations.PresentablePart.setVisible(PresentablePart.java:180)
+	at org.eclipse.ui.internal.presentations.util.PresentablePartFolder.select(PresentablePartFolder.java:270)
+	at org.eclipse.ui.internal.presentations.util.LeftToRightTabOrder.select(LeftToRightTabOrder.java:65)
+	at org.eclipse.ui.internal.presentations.util.TabbedStackPresentation.selectPart(TabbedStackPresentation.java:473)
+	at org.eclipse.ui.internal.PartStack.refreshPresentationSelection(PartStack.java:1245)
+	at org.eclipse.ui.internal.PartStack.setSelection(PartStack.java:1198)
+	at org.eclipse.ui.internal.PartStack.showPart(PartStack.java:1597)
+	at org.eclipse.ui.internal.PartStack.add(PartStack.java:493)
+	at org.eclipse.ui.internal.EditorStack.add(EditorStack.java:103)
+	at org.eclipse.ui.internal.PartStack.add(PartStack.java:479)
+	at org.eclipse.ui.internal.EditorStack.add(EditorStack.java:112)
+	at org.eclipse.ui.internal.EditorSashContainer.addEditor(EditorSashContainer.java:63)
+	at org.eclipse.ui.internal.EditorAreaHelper.addToLayout(EditorAreaHelper.java:225)
+	at org.eclipse.ui.internal.EditorAreaHelper.addEditor(EditorAreaHelper.java:213)
+	at org.eclipse.ui.internal.EditorManager.createEditorTab(EditorManager.java:808)
+	at org.eclipse.ui.internal.EditorManager.openEditorFromDescriptor(EditorManager.java:707)
+	at org.eclipse.ui.internal.EditorManager.openEditor(EditorManager.java:666)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditorBatched(WorkbenchPage.java:2942)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:2850)
+	at org.eclipse.ui.internal.WorkbenchPage.access$11(WorkbenchPage.java:2842)
+	at org.eclipse.ui.internal.WorkbenchPage$10.run(WorkbenchPage.java:2793)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2789)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2773)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2764)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:651)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:610)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:355)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:164)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:249)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:228)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:275)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:251)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerActionGroup.handleOpen(PackageExplorerActionGroup.java:376)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart$4.open(PackageExplorerPart.java:538)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:866)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:864)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1152)
+	at org.eclipse.jface.viewers.StructuredViewer$6.handleOpen(StructuredViewer.java:1256)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:275)
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:269)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:309)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4165)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+!SUBENTRY 1 org.eclipse.jdt.ui 4 995 2012-01-28 14:51:47.117
+!MESSAGE The class file is not on the classpath
+
+!ENTRY org.eclipse.ui 4 0 2012-01-28 14:51:48.310
+!MESSAGE Unable to create editor ID org.eclipse.jdt.ui.ClassFileEditor: The class file is not on the classpath
+!STACK 1
+org.eclipse.core.runtime.CoreException: The class file is not on the classpath
+	at org.eclipse.jdt.internal.ui.javaeditor.ClassFileEditor.doSetInput(ClassFileEditor.java:664)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$19.run(AbstractTextEditor.java:3200)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:464)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.window.ApplicationWindow$1.run(ApplicationWindow.java:759)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.window.ApplicationWindow.run(ApplicationWindow.java:756)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2642)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3218)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3245)
+	at org.eclipse.ui.internal.EditorManager.createSite(EditorManager.java:828)
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:647)
+	at org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:465)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:595)
+	at org.eclipse.ui.internal.EditorReference.getEditor(EditorReference.java:289)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditorBatched(WorkbenchPage.java:2945)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:2850)
+	at org.eclipse.ui.internal.WorkbenchPage.access$11(WorkbenchPage.java:2842)
+	at org.eclipse.ui.internal.WorkbenchPage$10.run(WorkbenchPage.java:2793)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2789)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2773)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2764)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:651)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:610)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:355)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:164)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:249)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:228)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:275)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:251)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerActionGroup.handleOpen(PackageExplorerActionGroup.java:376)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart$4.open(PackageExplorerPart.java:538)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:866)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:864)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1152)
+	at org.eclipse.jface.viewers.StructuredViewer$6.handleOpen(StructuredViewer.java:1256)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:275)
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:269)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:309)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4165)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+!SUBENTRY 1 org.eclipse.jdt.ui 4 995 2012-01-28 14:51:48.310
+!MESSAGE The class file is not on the classpath
+
+!ENTRY org.eclipse.ui 2 2 2012-01-28 14:51:48.320
+!MESSAGE Ignored attempt to add saveable that was already registered
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: unknown saveable: org.eclipse.ui.internal.DefaultSaveable@15d1f22 from part: org.eclipse.ui.internal.ErrorEditorPart@15d1f22
+	at org.eclipse.ui.internal.SaveablesList.logWarning(SaveablesList.java:187)
+	at org.eclipse.ui.internal.SaveablesList.addModel(SaveablesList.java:117)
+	at org.eclipse.ui.internal.SaveablesList.addModels(SaveablesList.java:289)
+	at org.eclipse.ui.internal.SaveablesList.postOpen(SaveablesList.java:695)
+	at org.eclipse.ui.internal.PartList.partOpened(PartList.java:234)
+	at org.eclipse.ui.internal.PartList.access$0(PartList.java:210)
+	at org.eclipse.ui.internal.PartList$1.propertyChanged(PartList.java:40)
+	at org.eclipse.ui.internal.WorkbenchPartReference.fireInternalPropertyChange(WorkbenchPartReference.java:375)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:610)
+	at org.eclipse.ui.internal.EditorReference.getEditor(EditorReference.java:289)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditorBatched(WorkbenchPage.java:2945)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:2850)
+	at org.eclipse.ui.internal.WorkbenchPage.access$11(WorkbenchPage.java:2842)
+	at org.eclipse.ui.internal.WorkbenchPage$10.run(WorkbenchPage.java:2793)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2789)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2773)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2764)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:651)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:610)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:355)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:164)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:249)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:228)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:275)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:251)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerActionGroup.handleOpen(PackageExplorerActionGroup.java:376)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart$4.open(PackageExplorerPart.java:538)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:866)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:864)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1152)
+	at org.eclipse.jface.viewers.StructuredViewer$6.handleOpen(StructuredViewer.java:1256)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:275)
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:269)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:309)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4165)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+!SESSION 2012-01-28 15:34:25.504 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-01-28 15:48:35.616
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-01-28 15:48:35.702
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+!SESSION 2012-01-29 12:41:31.867 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2012-01-29 12:41:38.820
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-01-29 12:43:48.690
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-01-29 12:43:48.737
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+!SESSION 2012-01-30 14:26:35.820 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2012-01-30 14:33:16.388
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:793)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:344)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:132)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Error deleting resource '/NoyalKub.src' from the workspace tree.
+org.eclipse.core.internal.resources.ResourceException: Could not delete metadata for '/NoyalKub.src'.
+	at org.eclipse.core.internal.resources.LocalMetaArea.delete(LocalMetaArea.java:103)
+	at org.eclipse.core.internal.resources.Project.deleteResource(Project.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.deletedProject(ResourceTree.java:169)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:870)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1939)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:780)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:344)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:132)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 1 273 2012-01-30 14:33:16.406
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 1 4 2012-01-30 14:33:16.406
+!MESSAGE Error deleting resource '/NoyalKub.src' from the workspace tree.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Could not delete metadata for '/NoyalKub.src'.
+	at org.eclipse.core.internal.resources.LocalMetaArea.delete(LocalMetaArea.java:103)
+	at org.eclipse.core.internal.resources.Project.deleteResource(Project.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.deletedProject(ResourceTree.java:169)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:870)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1939)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:780)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:344)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:132)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 3 org.eclipse.core.resources 4 569 2012-01-30 14:33:16.406
+!MESSAGE Could not delete metadata for '/NoyalKub.src'.
+
+!ENTRY org.eclipse.core.resources 1 273 2012-01-30 14:33:16.442
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 1 org.eclipse.core.resources 1 4 2012-01-30 14:33:16.442
+!MESSAGE Error deleting resource '/NoyalKub.src' from the workspace tree.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Could not delete metadata for '/NoyalKub.src'.
+	at org.eclipse.core.internal.resources.LocalMetaArea.delete(LocalMetaArea.java:103)
+	at org.eclipse.core.internal.resources.Project.deleteResource(Project.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.deletedProject(ResourceTree.java:169)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:870)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1939)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:780)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:344)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:132)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 2 org.eclipse.core.resources 4 569 2012-01-30 14:33:16.442
+!MESSAGE Could not delete metadata for '/NoyalKub.src'.
+!SESSION 2012-01-30 15:23:42.008 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.equinox.preferences 4 4 2012-01-30 16:40:20.811
+!MESSAGE Exception lors du chargement des préférences à partir de : .
+!STACK 0
+org.osgi.service.prefs.BackingStoreException: Unable to determine provisioning agent from location: file:\2fC:\2fUsers\2fCARDON\2fDesktop\2fModding\2feclipse-java-indigo-SR1-win32\2feclipse\2fconfiguration\2f..\2fp2\2f
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences.getAgent(ProfilePreferences.java:159)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences.load(ProfilePreferences.java:240)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.create(EclipsePreferences.java:308)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:544)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:670)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:550)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:670)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:550)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:670)
+	at org.eclipse.core.internal.preferences.RootPreferences.getNode(RootPreferences.java:106)
+	at org.eclipse.core.internal.preferences.RootPreferences.node(RootPreferences.java:85)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.getPreferences(AbstractRepositoryManager.java:501)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.remember(AbstractRepositoryManager.java:860)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.stop(AbstractRepositoryManager.java:1055)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningAgent.unregisterService(ProvisioningAgent.java:122)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningAgent.removedService(ProvisioningAgent.java:183)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerRemoved(ServiceTracker.java:1006)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerRemoved(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.untrack(AbstractTracked.java:352)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:949)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:104)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.unregister(ServiceRegistrationImpl.java:225)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:355)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:305)
+	at org.eclipse.equinox.internal.ds.Resolver.disposeComponentConfigs(Resolver.java:685)
+	at org.eclipse.equinox.internal.ds.Resolver.disableComponents(Resolver.java:661)
+	at org.eclipse.equinox.internal.ds.SCRManager.stoppingBundle(SCRManager.java:553)
+	at org.eclipse.equinox.internal.ds.SCRManager.bundleChanged(SCRManager.java:232)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:847)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.framework.internal.core.Framework.publishBundleEventPrivileged(Framework.java:1523)
+	at org.eclipse.osgi.framework.internal.core.Framework.publishBundleEvent(Framework.java:1459)
+	at org.eclipse.osgi.framework.internal.core.Framework.publishBundleEvent(Framework.java:1454)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:506)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:565)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1161)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:595)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:691)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:598)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:390)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:198)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+!SESSION 2012-01-30 16:56:59.210 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-01-30 16:58:23.986
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-01-30 16:58:24.035
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+!SESSION 2012-01-31 11:02:17.916 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.osgi 2 1 2012-01-31 11:09:51.773
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_no_50jre_title in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-01-31 11:09:51.812
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_no_50jre_message in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-01-31 11:09:51.812
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_50_project_compliance_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-01-31 11:09:51.813
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_50_workspace_compliance_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-01-31 11:09:51.814
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_50_compliance_changeworkspace_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-01-31 11:09:51.814
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_50_compliance_changeproject_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-01-31 11:09:51.816
+!MESSAGE NLS unused message: LocalCorrectionsSubProcessor_surroundwith_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+!SESSION 2012-02-01 01:59:01.288 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2012-02-01 02:00:19.147
+!MESSAGE Could not schedule source download
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2012-02-01 02:00:33.479
+!MESSAGE Could not schedule source download
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2012-02-01 02:00:51.711
+!MESSAGE Could not schedule source download
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2012-02-01 02:01:43.877
+!MESSAGE Could not schedule source download
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2012-02-01 02:02:06.311
+!MESSAGE Could not schedule source download
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2012-02-01 02:03:21.601
+!MESSAGE Could not schedule source download
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2012-02-01 02:03:23.209
+!MESSAGE Could not schedule source download
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2012-02-01 02:03:24.209
+!MESSAGE Could not schedule source download
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2012-02-01 02:03:25.597
+!MESSAGE Could not schedule source download
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2012-02-01 02:03:26.541
+!MESSAGE Could not schedule source download
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2012-02-01 02:03:48.502
+!MESSAGE Could not schedule source download
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2012-02-01 02:05:03.921
+!MESSAGE Could not schedule source download
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2012-02-01 02:05:10.605
+!MESSAGE Could not schedule source download
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2012-02-01 02:05:13.591
+!MESSAGE Could not schedule source download
+!SESSION 2012-02-01 02:10:58.337 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2012-02-01 02:16:04.886
+!MESSAGE Could not schedule source download
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2012-02-01 02:16:04.893
+!MESSAGE Could not schedule source download
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2012-02-01 02:16:06.286
+!MESSAGE Could not schedule source download
+!SESSION 2012-02-03 01:57:45.422 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2012-02-03 02:18:22.351
+!MESSAGE Could not schedule source download
+!SESSION 2012-02-05 19:26:30.132 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-05 19:54:10.998
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_no_50jre_title in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-05 19:54:11.040
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_no_50jre_message in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-05 19:54:11.041
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_50_project_compliance_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-05 19:54:11.041
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_50_workspace_compliance_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-05 19:54:11.042
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_50_compliance_changeworkspace_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-05 19:54:11.042
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_50_compliance_changeproject_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-05 19:54:11.044
+!MESSAGE NLS unused message: LocalCorrectionsSubProcessor_surroundwith_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-02-05 23:26:56.546
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-02-05 23:26:56.604
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+
+!ENTRY org.eclipse.core.resources 4 2 2012-02-05 23:26:57.779
+!MESSAGE Erreurs lors de l'appel du code du plug-in : org.eclipse.core.resources.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.core.MavenPlugin.getMaven(MavenPlugin.java:41)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:145)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 75 2012-02-05 23:26:57.827
+!MESSAGE Erreurs de génération.
+!SUBENTRY 1 org.eclipse.m2e.core 4 75 2012-02-05 23:26:57.827
+!MESSAGE Erreurs lors de lexécution du générateur {0} sur le projet {1}'.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.core.MavenPlugin.getMaven(MavenPlugin.java:41)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:145)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2012-02-06 11:24:46.676 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-06 11:25:49.104
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_no_50jre_title in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-06 11:25:49.273
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_no_50jre_message in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-06 11:25:49.274
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_50_project_compliance_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-06 11:25:49.274
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_50_workspace_compliance_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-06 11:25:49.275
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_50_compliance_changeworkspace_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-06 11:25:49.275
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_50_compliance_changeproject_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-06 11:25:49.276
+!MESSAGE NLS unused message: LocalCorrectionsSubProcessor_surroundwith_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-02-06 12:10:28.047
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-02-06 12:10:28.051
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+!SESSION 2012-02-06 21:57:18.615 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-02-06 22:00:22.036
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-02-06 22:00:22.180
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+!SESSION 2012-02-07 00:43:10.430 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-07 01:12:44.614
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_no_50jre_title in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-07 01:12:44.661
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_no_50jre_message in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-07 01:12:44.661
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_50_project_compliance_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-07 01:12:44.662
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_50_workspace_compliance_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-07 01:12:44.663
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_50_compliance_changeworkspace_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-07 01:12:44.663
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_50_compliance_changeproject_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-07 01:12:44.666
+!MESSAGE NLS unused message: LocalCorrectionsSubProcessor_surroundwith_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-02-07 01:18:34.148
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-02-07 01:18:34.164
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+!SESSION 2012-02-08 23:44:05.649 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-02-08 23:44:50.301
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-02-08 23:44:50.324
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+!SESSION 2012-02-09 00:21:40.915 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-02-09 00:30:46.032
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-02-09 00:30:46.069
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-09 00:34:39.786
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_no_50jre_title in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-09 00:34:39.786
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_no_50jre_message in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-09 00:34:39.788
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_50_project_compliance_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-09 00:34:39.790
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_50_workspace_compliance_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-09 00:34:39.790
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_50_compliance_changeworkspace_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-09 00:34:39.791
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_50_compliance_changeproject_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-09 00:34:39.792
+!MESSAGE NLS unused message: LocalCorrectionsSubProcessor_surroundwith_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+!SESSION 2012-02-09 00:40:24.434 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-09 00:53:25.552
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_no_50jre_title in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-09 00:53:25.575
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_no_50jre_message in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-09 00:53:25.575
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_50_project_compliance_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-09 00:53:25.576
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_50_workspace_compliance_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-09 00:53:25.576
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_50_compliance_changeworkspace_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-09 00:53:25.577
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_50_compliance_changeproject_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-09 00:53:25.577
+!MESSAGE NLS unused message: LocalCorrectionsSubProcessor_surroundwith_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-02-09 01:01:31.204
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-02-09 01:01:31.234
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+!SESSION 2012-02-09 13:55:03.627 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-09 13:56:26.887
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_no_50jre_title in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-09 13:56:26.954
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_no_50jre_message in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-09 13:56:26.954
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_50_project_compliance_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-09 13:56:26.955
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_50_workspace_compliance_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-09 13:56:26.956
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_50_compliance_changeworkspace_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-09 13:56:26.957
+!MESSAGE NLS unused message: ReorgCorrectionsSubProcessor_50_compliance_changeproject_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-02-09 13:56:26.961
+!MESSAGE NLS unused message: LocalCorrectionsSubProcessor_surroundwith_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-02-09 14:21:41.400
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-02-09 14:21:41.403
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+!SESSION 2012-02-11 21:35:34.182 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-02-11 21:38:17.562
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-02-11 21:38:17.618
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+!SESSION 2012-02-11 22:35:40.031 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-02-11 22:36:54.929
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-02-11 22:36:55.049
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+!SESSION 2012-02-12 14:50:03.623 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2012-02-12 15:03:44.423
+!MESSAGE Could not schedule source download
+
+!ENTRY org.eclipse.jdt.core 4 4 2012-02-12 15:03:47.334
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: craftbukkit
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Erreurs lors de la suppression des ressources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:793)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:114)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:46)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Contains: Impossible de supprimer '/craftbukkit/target/classes/org'.
+org.eclipse.core.internal.resources.ResourceException: Erreurs lors de la suppression des ressources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:352)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:352)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:798)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1935)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:780)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:114)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:46)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Contains: Erreurs lors de la suppression des fichiers.
+Contains: Impossible de supprimer C:\Users\CARDON\Desktop\Modding\CraftBukkit\target\classes\org\bukkit\craftbukkit.
+Contains: Impossible de supprimer C:\Users\CARDON\Desktop\Modding\CraftBukkit\target\classes\org\bukkit.
+Contains: Impossible de supprimer C:\Users\CARDON\Desktop\Modding\CraftBukkit\target\classes\org.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2012-02-12 15:03:47.335
+!MESSAGE Erreurs lors de la suppression des ressources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2012-02-12 15:03:47.335
+!MESSAGE Impossible de supprimer '/craftbukkit/target/classes/org'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Erreurs lors de la suppression des ressources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:352)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:352)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:798)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1935)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:780)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:114)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:46)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Contains: Erreurs lors de la suppression des fichiers.
+Contains: Impossible de supprimer C:\Users\CARDON\Desktop\Modding\CraftBukkit\target\classes\org\bukkit\craftbukkit.
+Contains: Impossible de supprimer C:\Users\CARDON\Desktop\Modding\CraftBukkit\target\classes\org\bukkit.
+Contains: Impossible de supprimer C:\Users\CARDON\Desktop\Modding\CraftBukkit\target\classes\org.
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2012-02-12 15:03:47.335
+!MESSAGE Erreurs lors de la suppression des ressources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2012-02-12 15:03:47.335
+!MESSAGE Erreurs lors de la suppression des fichiers.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2012-02-12 15:03:47.335
+!MESSAGE Impossible de supprimer C:\Users\CARDON\Desktop\Modding\CraftBukkit\target\classes\org\bukkit\craftbukkit.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2012-02-12 15:03:47.335
+!MESSAGE Impossible de supprimer C:\Users\CARDON\Desktop\Modding\CraftBukkit\target\classes\org\bukkit.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2012-02-12 15:03:47.335
+!MESSAGE Impossible de supprimer C:\Users\CARDON\Desktop\Modding\CraftBukkit\target\classes\org.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-02-12 15:03:52.891
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-02-12 15:03:52.894
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+
+!ENTRY org.eclipse.ui 4 0 2012-02-12 22:48:44.343
+!MESSAGE Unable to create editor ID org.eclipse.jdt.ui.ClassFileEditor: Le fichier de classe ne figure pas dans le chemin d'accès aux classes
+!STACK 1
+org.eclipse.core.runtime.CoreException: Le fichier de classe ne figure pas dans le chemin d'accès aux classes
+	at org.eclipse.jdt.internal.ui.javaeditor.ClassFileEditor.doSetInput(ClassFileEditor.java:664)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$19.run(AbstractTextEditor.java:3200)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:464)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.window.ApplicationWindow$1.run(ApplicationWindow.java:759)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.window.ApplicationWindow.run(ApplicationWindow.java:756)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2642)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3218)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3245)
+	at org.eclipse.ui.internal.EditorManager.createSite(EditorManager.java:828)
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:647)
+	at org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:465)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:595)
+	at org.eclipse.ui.internal.EditorReference.getEditor(EditorReference.java:289)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditorBatched(WorkbenchPage.java:2945)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:2850)
+	at org.eclipse.ui.internal.WorkbenchPage.access$11(WorkbenchPage.java:2842)
+	at org.eclipse.ui.internal.WorkbenchPage$10.run(WorkbenchPage.java:2793)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2789)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2773)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2764)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:651)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:610)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:355)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:164)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:249)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:228)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:275)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:251)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerActionGroup.handleOpen(PackageExplorerActionGroup.java:376)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart$4.open(PackageExplorerPart.java:538)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:866)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:864)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1152)
+	at org.eclipse.jface.viewers.StructuredViewer$6.handleOpen(StructuredViewer.java:1256)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:275)
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:269)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:309)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4165)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+!SUBENTRY 1 org.eclipse.jdt.ui 4 995 2012-02-12 22:48:44.349
+!MESSAGE Le fichier de classe ne figure pas dans le chemin d'accès aux classes
+
+!ENTRY org.eclipse.ui 2 2 2012-02-12 22:48:45.356
+!MESSAGE Ignored attempt to add saveable that was already registered
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: unknown saveable: org.eclipse.ui.internal.DefaultSaveable@f44b39 from part: org.eclipse.ui.internal.ErrorEditorPart@f44b39
+	at org.eclipse.ui.internal.SaveablesList.logWarning(SaveablesList.java:187)
+	at org.eclipse.ui.internal.SaveablesList.addModel(SaveablesList.java:117)
+	at org.eclipse.ui.internal.SaveablesList.addModels(SaveablesList.java:289)
+	at org.eclipse.ui.internal.SaveablesList.postOpen(SaveablesList.java:695)
+	at org.eclipse.ui.internal.PartList.partOpened(PartList.java:234)
+	at org.eclipse.ui.internal.PartList.access$0(PartList.java:210)
+	at org.eclipse.ui.internal.PartList$1.propertyChanged(PartList.java:40)
+	at org.eclipse.ui.internal.WorkbenchPartReference.fireInternalPropertyChange(WorkbenchPartReference.java:375)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:610)
+	at org.eclipse.ui.internal.EditorReference.getEditor(EditorReference.java:289)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditorBatched(WorkbenchPage.java:2945)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:2850)
+	at org.eclipse.ui.internal.WorkbenchPage.access$11(WorkbenchPage.java:2842)
+	at org.eclipse.ui.internal.WorkbenchPage$10.run(WorkbenchPage.java:2793)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2789)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2773)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2764)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:651)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:610)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:355)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:164)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:249)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:228)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:275)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:251)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerActionGroup.handleOpen(PackageExplorerActionGroup.java:376)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart$4.open(PackageExplorerPart.java:538)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:866)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:864)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1152)
+	at org.eclipse.jface.viewers.StructuredViewer$6.handleOpen(StructuredViewer.java:1256)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:275)
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:269)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:309)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4165)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY org.eclipse.ui.ide 4 4 2012-02-12 22:49:11.927
+!MESSAGE Erreur lors de la sauvegarde de l'espace de travail
+
+!ENTRY org.eclipse.ui.ide 2 1 2012-02-12 22:49:11.951
+!MESSAGE Erreur lors de la sauvegarde de l'état de l'espace de travail.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2012-02-12 22:49:11.951
+!MESSAGE Le fichier de description de projet (.project) pour 'Esperia' était manquant.  Ce fichier contient des informations importantes sur le projet.  Un nouveau fichier de description de projet a été créé, mais certaines informations sur le projet ont peut-être été perdues.
+!SESSION 2012-02-14 15:21:52.285 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-02-14 15:24:06.976
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-02-14 15:24:07.235
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+!SESSION 2012-02-16 01:01:43.991 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2012-02-16 01:01:56.949
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.jobs 2 2 2012-02-16 01:03:05.738
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.m2e.core.internal.index.nexus.IndexUpdaterJob
+!SESSION 2012-02-16 11:26:07.672 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product -data C:\Users\CARDON\Desktop\Modding\mcp56-1.1\eclipse -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 4 567 2012-02-16 11:26:10.784
+!MESSAGE L'espace de travail a été restauré mais des erreurs se sont produites.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2012-02-16 11:26:10.784
+!MESSAGE Impossible de lire des métadonnées pour 'Esperia'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Le fichier de description de projet (.project) pour 'Esperia' est manquant.  Ce fichier contient des informations importantes sur le projet.  Le projet ne fonctionnera pas correctement tant que ce fichier n'aura pas été restauré.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:851)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:873)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:853)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:702)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1527)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2503)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2251)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:439)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:711)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:702)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:683)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:381)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:299)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:268)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:462)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:400)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:35)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:473)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2012-02-16 11:26:10.785
+!MESSAGE Le fichier de description de projet (.project) pour 'Esperia' est manquant.  Ce fichier contient des informations importantes sur le projet.  Le projet ne fonctionnera pas correctement tant que ce fichier n'aura pas été restauré.
+
+!ENTRY org.eclipse.core.resources 4 2 2012-02-16 11:26:45.468
+!MESSAGE Erreurs lors de l'appel du code du plug-in : org.eclipse.core.resources.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.egit.core.Activator.getPluginId(Activator.java:71)
+	at org.eclipse.egit.core.Activator$AutoShareProjects.doAutoShare(Activator.java:195)
+	at org.eclipse.egit.core.Activator$AutoShareProjects.access$0(Activator.java:193)
+	at org.eclipse.egit.core.Activator$AutoShareProjects$1.visit(Activator.java:209)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:69)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:49)
+	at org.eclipse.egit.core.Activator$AutoShareProjects.resourceChanged(Activator.java:205)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:395)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1530)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:156)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.jobs 2 2 2012-02-16 11:26:48.154
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.m2e.core.internal.index.nexus.IndexUpdaterJob
+!SESSION 2012-02-16 11:34:10.183 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2012-02-16 11:34:24.088
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.resources 4 567 2012-02-16 11:34:24.202
+!MESSAGE L'espace de travail a été restauré mais des erreurs se sont produites.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2012-02-16 11:34:24.202
+!MESSAGE Impossible de lire des métadonnées pour 'Launcher_FarmCraft'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Le fichier de description de projet (.project) pour 'Launcher_FarmCraft' est manquant.  Ce fichier contient des informations importantes sur le projet.  Le projet ne fonctionnera pas correctement tant que ce fichier n'aura pas été restauré.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:851)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:873)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:853)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:702)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1527)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2503)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2251)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:439)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:711)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:702)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:683)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:381)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:299)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:268)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:462)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:400)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:35)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:473)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2012-02-16 11:34:24.203
+!MESSAGE Le fichier de description de projet (.project) pour 'Launcher_FarmCraft' est manquant.  Ce fichier contient des informations importantes sur le projet.  Le projet ne fonctionnera pas correctement tant que ce fichier n'aura pas été restauré.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2012-02-16 11:34:24.203
+!MESSAGE Impossible de lire des métadonnées pour 'Launcher_Test'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Le fichier de description de projet (.project) pour 'Launcher_Test' est manquant.  Ce fichier contient des informations importantes sur le projet.  Le projet ne fonctionnera pas correctement tant que ce fichier n'aura pas été restauré.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:851)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:873)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:853)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:702)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1527)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2503)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2251)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:439)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:711)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:702)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:683)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:381)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:299)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:268)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:462)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:400)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:35)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:473)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2012-02-16 11:34:24.203
+!MESSAGE Le fichier de description de projet (.project) pour 'Launcher_Test' est manquant.  Ce fichier contient des informations importantes sur le projet.  Le projet ne fonctionnera pas correctement tant que ce fichier n'aura pas été restauré.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2012-02-16 11:34:24.203
+!MESSAGE Impossible de lire des métadonnées pour 'Launcher_Test2'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Le fichier de description de projet (.project) pour 'Launcher_Test2' est manquant.  Ce fichier contient des informations importantes sur le projet.  Le projet ne fonctionnera pas correctement tant que ce fichier n'aura pas été restauré.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:851)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:873)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:853)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:702)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1527)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2503)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2251)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:439)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:711)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:702)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:683)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:381)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:299)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:268)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:462)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:400)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:35)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:473)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2012-02-16 11:34:24.204
+!MESSAGE Le fichier de description de projet (.project) pour 'Launcher_Test2' est manquant.  Ce fichier contient des informations importantes sur le projet.  Le projet ne fonctionnera pas correctement tant que ce fichier n'aura pas été restauré.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2012-02-16 11:34:24.204
+!MESSAGE Impossible de lire des métadonnées pour 'Launcher_by_MrGloboxx'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Le fichier de description de projet (.project) pour 'Launcher_by_MrGloboxx' est manquant.  Ce fichier contient des informations importantes sur le projet.  Le projet ne fonctionnera pas correctement tant que ce fichier n'aura pas été restauré.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:851)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:873)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:853)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:702)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1527)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2503)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2251)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:439)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:711)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:702)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:683)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:381)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:299)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:268)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:462)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:400)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:35)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:473)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2012-02-16 11:34:24.204
+!MESSAGE Le fichier de description de projet (.project) pour 'Launcher_by_MrGloboxx' est manquant.  Ce fichier contient des informations importantes sur le projet.  Le projet ne fonctionnera pas correctement tant que ce fichier n'aura pas été restauré.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-02-16 11:34:47.256
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-02-16 11:34:47.262
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+!SESSION 2012-02-16 22:31:08.156 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data C:\Users\CARDON\Desktop\Modding FarmCraft\mcp56-1.1\eclipse -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-02-16 22:31:54.306
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-02-16 22:31:54.350
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-02-16 22:35:01.945
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-02-16 22:35:01.947
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-02-16 22:35:02.062
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-02-16 22:35:02.064
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-02-16 22:35:07.873
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-02-16 22:35:07.875
+!MESSAGE The metadata C:\Users\CARDON\.m2\repository\org\bukkit\bukkit\1.1-R1-SNAPSHOT\maven-metadata-bukkit-repo.xml is invalid: entity reference names can not start with character '&' (position: START_TAG seen ...agName(\'base\')[0], _bH = "http://forums.bukkit.org/";\n\t\t\tif (_b &&... @10:13) 
